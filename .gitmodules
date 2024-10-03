@@ -7,3 +7,9 @@
 #
 # Copyright 2024 林博仁(Buo-ren Lin) <buo.ren.lin@gmail.com>
 # SPDX-License-Identifier: CC-BY-SA-4.0
+[submodule "上游專案"]
+	path = 上游專案
+	url = https://github.com/git-cola/git-cola.git
+	ignore = dirty
+	shallow = true
+	fetchRecurseSubmodules = false
